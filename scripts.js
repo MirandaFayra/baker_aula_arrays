@@ -5,48 +5,67 @@ console.log('Salve Baker')
 
 // ARRAY = LISTA de variáveis 
 
-// ARRAY inicia-se com o indice Zero 
+let arraybacker = [1,'fayra','baker', false]
 
-//let arrayExplicacao = [56,39, 'salve', true , 78]
-//console.log(arrayExplicacao)
+//let arraybacker = [posicao 0,posicao1, posicao2, posicao3]
+
+// Indice => Posição do elemento no array
+
+// ARRAY inicia-se com o indice Zero
+
+//console.log(arraybacker.length) // qtd elementos
+//console.log(arraybacker[2]) // acessar baker 
+//console.log(arraybacker[0]) // acessar o número 1
+//console.log(arraybacker[1]) // acessar fayra
+
+let arrayExplicacao = [56,39, 'salve', true , 78]
+console.log(arrayExplicacao)
 
 // PUSH => Insere o elemento no final do array   - array.push("")
 
-//arrayExplicacao.push("baker")
-//console.log(arrayExplicacao)
+arrayExplicacao.push("baker")
+console.log(arrayExplicacao)
 
 //POP => Retira o elemento no final do array  - array.pop()
-//arrayExplicacao.pop()
-//console.log(arrayExplicacao)
+arrayExplicacao.pop()
+console.log(arrayExplicacao)
 
 // UNSHIFT => Adiciona um elemento no inicio de array - array.unshift(" ")
-//arrayExplicacao.push("Salveee")
-//console.log(arrayExplicacao)
+arrayExplicacao.unshift("Salveee usei o Unshift")
+console.log(arrayExplicacao)
 
 // SHIFT =>  Remove o primeiro elemento de um array e o retorna - array.shift()
 
-//arrayExplicacao.shift()
-//console.log(arrayExplicacao)
+arrayExplicacao.shift()
+console.log(arrayExplicacao)
 
 
 // SPLICE (i,n)=>  Remove ou substitui elementos em um array  - array.splice(ind, qtd, 'elemento')
 
-//arrayExplicacao.splice(1,2,'Helooo')
-//console.log(arrayExplicacao)
+arrayExplicacao.splice(1,2,'Helooo') // a partir do elemento de indice 1, tire 2 itens e troque por Helooo
+console.log(arrayExplicacao)
+
 
 // INCLUDES : Verifica se o elemento está ou não no array, retornando um booleano - 
-//arrayExplicacao.includes("baker")
-//console.log(arrayExplicacao)
+//let verificarArray = arrayExplicacao.includes("baker")
+let verificarArray = arrayExplicacao.includes(78)
+console.log(verificarArray)
 
-//INDEXOF : Retorna o indice da primeira ocorrencia de um valor do array. Caso não for encontrado retorna -1 
+//INDEXOF : Retorna o indice (posição) da primeira ocorrencia de um valor do array. Caso não for encontrado retorna -1 
 
-//arrayExplicacao.indexOf('39')
-//console.log(arrayExplicacao)
+//let verificarPosicao = arrayExplicacao.indexOf(39)
+let verificarPosicao = arrayExplicacao.indexOf(78)
+console.log(verificarPosicao)
 
 // SORT: Usado para ordenar os elementos de um array em ordem alfabéticaou numérica
 
-//arrayExplicacao.sort ()
-//console.log(arrayExplicacao)
+let ordenarArray = arrayExplicacao.sort()
+console.log(ordenarArray)
+
+let arrayDeLetras = ['a', 'w', 's', 'f', 'y', 'g', 'l', 'h', 'c']
+
+let ordenarArrayDeLetras = arrayDeLetras.sort()
+console.log(ordenarArrayDeLetras)
 
 // -------------- EXERCICIO 1 --------
 
